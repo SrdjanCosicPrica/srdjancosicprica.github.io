@@ -1,0 +1,58 @@
+header {
+	opacity: 1;
+	background: #111;
+    height: 62px;
+    padding: 0 5%;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+
+.row,
+.col-12{
+	width: 100%;
+	height: 100%;
+}
+
+/* Logo */
+
+.logo {
+  width: 46px;
+  height: 30px; 
+  background: url(../assets/logo4-white.png)  no-repeat;
+  display: block;
+  text-indent: -9999px;
+  float: left;
+  background-size: 100% 100%;
+  margin-top: 16px; /*The logo's height is 60xp, Header's height is 92, 92-60 = 32; To get it centered 32/2 = 16*/
+  margin-left: 15px;
+}
+
+.logo:hover{
+  opacity: .5;
+}
+
+/* Animations */
+
+.logo {
+  -webkit-transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+
+@media only screen and (min-width: 668px) {
+	header {
+		height: 92px;
+		padding: 0 15%;
+	}
+	.logo {
+		width: 92px;
+		height: 60px;
+		margin-left: 100px;
+		margin-top: 16px;   
+	}
+}
