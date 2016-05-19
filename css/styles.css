@@ -21,7 +21,7 @@ header {
 .logo {
   width: 46px;
   height: 30px; 
-  background: url(../assets/logo4-white.png)  no-repeat;
+  background: url(../images/logo4-white.png)  no-repeat;
   display: block;
   text-indent: -9999px;
   float: left;
